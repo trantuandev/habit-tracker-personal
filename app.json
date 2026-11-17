@@ -1,0 +1,38 @@
+{
+  "expo": {
+    "name": "E-Commerce Product App",
+    "slug": "ecommerce-product-app-thanh",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "plugins": [
+      [
+        "expo-splash-screen",
+        {
+          "image": "./assets/splash.png",
+          "resizeMode": "contain",
+          "backgroundColor": "#ffffff"
+        }
+      ]
+    ],
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.yourname.ecommerceapp"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "package": "com.yourname.ecommerceapp"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "owner": "your-expo-username"
+  }
+}
