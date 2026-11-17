@@ -121,7 +121,7 @@
 
 ```bash
 # 1. Clone the repository
-git clone https://github.com/<your-username>/habit-tracker-app.git
+git clone https://github.com/trantuandev/habit-tracker-personal.git
 cd habit-tracker-app
 
 # 2. Install dependencies
